@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@localization": ["utils/localization"],
+      "@constants": ["utils/constants"],
+      "@styles/*": ["styles/*"],
+      "@apollo-client": ["apollo-client"],
+      "@helpers/*": ["utils/helpers/*"],
+      "@redux/*": ["utils/redux/*"]
+    }
+  }
+}
